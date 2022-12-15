@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Jogo de Trivia - Séries</title>
+  </head>
+  <body>
+    <div class="caixaPreta">
+      <h1>Bem-vindo ao <span class="fonteEstilizada">TriviaFlix</span></h1>
+
+      <h2>Você é um fã de séries? Responda as perguntas e vamos descobrir!</h2>
+
+      <div>
+        <h3>PERGUNTA 1</h3>
+
+        <h4>
+          Qual série é inspirada nos apêndices de uma famosa trilogia escrita
+          por J. R. R. Tolkien?
+        </h4>
+
+        <p>
+          <input type="radio" name="triviaflix1" value="O Hobbit" />O Hobbit
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="triviaflix1"
+            value="O Senhor dos Anéis: Os Anéis de Poder"
+          />O Senhor dos Anéis: Os Anéis de Poder
+        </p>
+        <p>
+          <input type="radio" name="triviaflix1" value="A Casa do Dragão" />A
+          Casa do Dragão
+        </p>
+
+        <p class="centralizarBotao">
+          <button type="button" onclick="mostraValorCorreto1()">
+            Responder e Ver Resultados
+          </button>
+        </p>
+      </div>
+      <div>
+        <h3>PERGUNTA 2</h3>
+
+        <h4>
+          Qual música salva a personagem Max das mãos do Vecna na série Stranger
+          Things?
+        </h4>
+
+        <p>
+          <input
+            type="radio"
+            name="triviaflix2"
+            value="Running Up That Hill (A Deal With God) da Kate Bush"
+          />Running Up That Hill (A Deal With God) da Kate Bush
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="triviaflix2"
+            value="Time After Time da Cyndi Lauper"
+          />Time After Time da Cyndi Lauper
+        </p>
+        <p>
+          <input
+            type="radio"
+            name="triviaflix2"
+            value="Dead end Justice do The Runaways"
+          />Dead end Justice do The Runaways
+        </p>
+
+        <p class="centralizarBotao">
+          <button type="button" onclick="mostraValorCorreto2()">
+            Responder e Ver Resultados
+          </button>
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

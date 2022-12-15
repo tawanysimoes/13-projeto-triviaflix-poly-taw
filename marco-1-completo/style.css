@@ -1,0 +1,50 @@
+body {
+  background-image: url("./imagem/Design\ sem\ nome\ \(3\).png");
+  font-family: "EB Garamond", serif;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  background-color: #785983;
+  min-width: 100px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  margin: 0 auto;
+  color: #eaceae;
+}
+
+button {
+  padding: 8px 16px;
+  max-width: 210px;
+  background-color: #70a7a4;
+  border: none;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.caixaPreta {
+  background-color: #c9bdb5;
+  width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #4e4548, #c4584b) 1;
+  margin-top: 80px;
+  opacity: 0.9;
+}
+
+.centralizarBotao {
+  text-align: center;
+}
+
+.fonteEstilizada {
+  font-family: "Archivo Black", sans-serif;
+}
